@@ -1,1 +1,1 @@
-Array.from(document.querySelectorAll("li:nth-of-type(n+4) label")).forEach(button=>button.click())
+var divs = document.querySelectorAll('.ember-checkbox'); for (i = 0; i < divs.length; ++i) { divs[i].click(); };
